@@ -36,8 +36,7 @@ ACLOCAL_AMFLAGS = -I m4
 INCLUDE_DIRS = -I$(top_srcdir)/tools -I$(top_srcdir)/lib -I$(top_srcdir)/lib/tcti
 LIB_COMMON := lib/libcommon.a
 
-LIBMARSHAL_CFLAGS = \
-    -DALG_ECMQV=1
+LIBMARSHAL_CFLAGS =
 
 AM_CFLAGS := \
     $(INCLUDE_DIRS) $(EXTRA_CFLAGS) $(SAPI_CFLAGS) $(TCTI_SOCK_CFLAGS) \
